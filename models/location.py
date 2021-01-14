@@ -1,0 +1,19 @@
+class Location():
+
+    # Class initializer. It has 5 custom parameters, with the
+    # special `self` parameter that every method on a class
+    # needs as the first parameter.
+    def __init__(self, id, name, status, address):
+        self.id = id
+        self.name = name
+        self.status = status
+        self.address = address
+        
+
+
+        {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive",
+      "status": "Open"
+    }
